@@ -41,7 +41,6 @@ app
 		// Listen on the default port (3000)
 		server.listen(dev, err => {
 			if (err) throw err;
-			console.log('> Ready on http://localhost:3000')
 		})
 	})
 	.catch(error => {
